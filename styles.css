@@ -1,0 +1,53 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  display: flex;
+}
+
+main.full-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/images/image.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.content-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  max-width: 1200px;
+  box-shadow: 0 0 10rem black inset;
+  padding: 1rem;
+}
+
+.content-text a {
+  display: contents;
+} 
+.logo {
+  width: 9rem;
+  margin-bottom: 1rem;
+}
+
+.content-text h1 {
+  font-family: 'Luxurious Roman', Times, serif;
+}
+
+.content-text p {
+  font-family: 'Merriweather', Times, serif;
+  font-size: 1.1rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
